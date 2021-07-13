@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shop - Héroes</title>
+    <script src="https://use.fontawesome.com/ec973ecb6e.js"></script>
+
+    <!-- Se agregaron actualizaciones para la Clase 14 -->
+</head>
+<body>
+    <header>
+        <div class="descuentos">
+            20% de descuento en todos los productos!
+        </div>
+        <div class="titulo">
+            <img src="img/tienda-logo.png">
+            <a href="index.html"><h1>Nombre de tienda</h1></a>
+        </div> 
+        <nav>
+            <ul>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="register.html">Registrarme</a></li>
+                <li><a href="login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container-crud">
+        <div class="col">
+            <h1>Añadí tu super!</h1>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+            <form action="index.html">
+                <div class="row">
+                    <p>
+                        <label for="nombre">*Nombre</label>
+                        <input type="text" name="usuario" id="usuario">
+                    </p>
+                    <p>
+                        <label for="especie">Especie</label>
+                        <select name="especie" id="especie">
+                            <option value="">Especie</option>
+                            <option value="human">Humano</option>
+                            <option value="elfo">Elfo</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="row">
+                    <p>
+                        <label for="fecha">Fecha</label>
+                        <input type="date" name="fecha" id="fecha" placeholder="dd/mm/aaaa">
+                    </p>
+                    <p>
+                        <label for="foto">Agregar foto</label>
+                        <input type="file" name="foto" id="foto">
+                    </p>
+                </div>
+                <div class="row">
+                    <p>
+                        <textarea name="mensaje" id="mensaje" cols="40" rows="11" placeholder="Descripción"></textarea>
+                    </p>
+                    <p>
+                        <label for="poderes">Poderes</label>
+                        <label>
+                            <input type="checkbox" name="poderes" value="Volar"> Volar
+                        </label>
+                        <label>
+                            <input type="checkbox" name="poderes" value="SuperInteligencia"> SuperInteligencia
+                        </label>
+                        <label>
+                            <input type="checkbox" name="poderes" value="Vista de rayo láser"> Vista de rayo láser
+                        </label>
+                        <label>
+                            <input type="checkbox" name="poderes" value="Billetera gorda"> Billetera gorda
+                        </label>
+                        
+                        <br>
+                        
+                        <label for="tipoPersonaje">Tipo de personaje</label>
+                        <label>
+                            <input type="radio" name="tipoPersonaje" value="Héroe / Heroina"> Héroe / Heroina
+                        </label>
+                        <label>
+                            <input type="radio" name="tipoPersonaje" value="Villano / Villana"> Villano / Villana
+                        </label>
+                    </p>
+                </div>
+                <div class="row">
+                    <button type="submit" class="btn-send">Añadir</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        Todos los derechos reservados a FRONT END 1
+    </footer>
+</body>
+</html>

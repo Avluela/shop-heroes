@@ -1,0 +1,391 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1,
+h2{
+    font-weight: 400;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+p{
+    font-size: 0.6rem;
+    padding: 6% 0%;
+}
+
+button{
+    background-color: #00669F;
+    color: #ffffff;
+    font-size: 0.6rem;
+    border: transparent;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+footer{
+    position: relative;
+    background-color: #00669F;
+    display: flex;
+    color: #ffffff;
+    font-size: 0.6rem;
+    justify-content: center;
+    padding: 2.5% 0%;
+    width: 100%;
+}
+
+nav{
+    padding: 0.8% 1%;
+    background-color: #001D2D;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav li{
+    padding: 0% 1%;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: #ffffff;
+    font-size: 0.7rem;
+    text-decoration: transparent;
+}
+
+.descuentos{
+    background-color: #D1891C;
+    padding-left: 4%;
+    font-size: 0.8rem;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #00669F; 
+    padding: 1% 1%;
+}
+
+.titulo img{
+    width: 4%;
+    margin-right: 10px;
+}
+
+.btn-show{
+    padding: 4% 0%;
+    width: 45%;
+    border-radius: 3px;
+    background-color: #00669F;
+    font-size: 0.6rem;
+    border: transparent;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.btn-add{
+    position: fixed;
+    right: 5%;
+    top: 60%;
+    z-index: 4;
+    font-size: 2rem;  
+    background-color: transparent;
+    color: #00669F;
+}
+
+.btn-add:hover{
+    color: #001D2D;
+}
+
+.card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 50%;
+    background-color: #F3F3F3;
+    margin: 3% 0% 5% 0%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.heart{
+    position: absolute;
+    padding: 5% 5%;
+    width: 20%;
+}
+
+.photo{
+    position: absolute;
+    border-radius: 50%;
+    width: 40%;
+    margin: 43% 30%;
+    z-index: 3;
+}
+
+.card-background{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.body-card{
+    padding: 23% 7% 8% 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login h1{
+    color: #333333;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.login .col{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.login form{
+    margin: 5% 0%;
+}
+
+.login p{ 
+    padding: 1.5% 0%;
+}
+
+.login input,
+.login select{
+    padding: 2% 4%;
+    width: 100%;
+}
+
+.register{
+    color: #00669F;
+}
+
+.login a{
+    color: #000000;
+    padding-left: 3%;
+    font-size: 0.6rem;
+}
+
+.login a:hover{
+    color: #00669F;
+}
+
+.login button{
+    width: 100%;
+    background-color: #1CD1B0;
+    padding: 2% 0%;
+    color: #000000;
+    font-weight: 700;
+    border-radius: 25px;
+    margin: 5% 0% 3%;
+}
+
+.row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.login .btn{
+    width: 48%;
+}
+
+.login .btn-reset{
+    background-color: #888888;
+    color: #ffffff;
+}
+
+.login textarea{
+    width: 100%;
+    padding: 4%;
+    font-size: 0.5rem;
+}
+
+.show{
+    background-image: url('../img/bg\ 1.png');
+}
+
+.show .card{
+    width: 100%;
+    border-radius: 40px 40px 0px 0px;
+    margin: 0%;
+}
+
+.show .body-card{
+    padding: 13% 7% 3% 7%;
+}
+
+.show h1{
+    color: #2C0187;
+    font-weight: 400;
+    
+}
+
+.photo-card{
+    position: absolute;
+    border-radius: 50%;
+    width: 30%;
+    margin: -18% 35%;
+    z-index: 3;
+}
+
+.guns{
+    width: 22%;
+    margin-top: 20px;
+}
+
+.show .card-button{
+    width: 100%;
+    background-color: #2C0187;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 40px 40px;
+    margin: 0%;
+    padding: 5% 0%;
+    text-align: center;
+    color: #ffffff;
+}
+
+main.container-crud{
+    padding: 2%;
+}
+
+.container-crud .col{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: #00669F;
+    align-items: center;
+    border-radius: 30px;
+    padding: 1% 0%;
+}
+
+.container-crud h1{
+    font-weight: 700;
+}
+
+.container-crud p{
+    padding: 3% 2% 0% 2%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-crud .row p{
+    width: 50%;
+}
+
+.container-crud .row{
+    justify-content: space-around;
+}
+
+
+.col.col-left{
+    align-items: flex-start;
+}
+
+.container-crud input,
+.container-crud select,
+.container-crud textarea{
+    padding: 3% 2%;
+    border-radius: 10px;
+    border: transparent;
+    margin: 4% 0% 0%;
+}
+
+.btn-send{
+    border: transparent;
+    font-weight: 700;
+    font-size: 1.2rem;
+    background-color: #1CD1B0;
+    color: #000000;
+    width: 65%;
+    padding: 2% 0%;
+    margin: 4% 0% 0%;
+    border-radius: 10px;
+}
+
+.btn-send:hover{
+    background-color: #001D2D;
+    color: #ffffff;
+}
+
+@media (min-width: 481px){
+    html{
+        font-size: 18px;
+    }
+
+    main{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10%;    
+    }    
+    
+    .card{
+        width: 40%;
+    }
+}
+
+@media (min-width: 769px){
+    html{
+        font-size: 22px;
+    }
+
+    footer{
+        padding: 1% 0%;
+    }
+
+    .card{
+        width: 250px;
+    }
+
+    .descuentos{
+        background-color: #1CD1B0;
+        padding: 0% 1%;
+        font-size: 0.6rem;
+    } 
+
+}
+
